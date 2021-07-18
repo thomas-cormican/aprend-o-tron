@@ -1,8 +1,8 @@
-import React, {useState} from "react"
+import React, {useState} from "react";
 import wordList from "./../word-list.js";
 import Prompt from "./Prompt.jsx";
-import correct from "./../correct.wav"
-import Incorrect from "./../Incorrect.wav"
+import correct from "./../correct.wav";
+import Incorrect from "./../Incorrect.wav";
 
 let dictionary = wordList;
 
@@ -39,14 +39,13 @@ function App() {
 
     if (randomWord.translations.includes(parsedResponse)) {
       setResult("Correct");
-      setScore(score => score += 1)
+      setScore(score => score += 1);
       audioCorrect.play();
 
     } else {
       setResult("Incorrect");
       audioIncorrect.play();
     }
-
   }
 
   function handleKeyDown(event) {
