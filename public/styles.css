@@ -1,52 +1,51 @@
-.App{
+.App {
   margin: 12% 5% 0% 5%;
 }
 
-.progress{
+.progress {
   margin-bottom: 100px;
 }
 
-.App h1{
+.App h1 {
   display: inline-block;
 }
 
-.score{
+.score {
   float: left;
   font-size: 1.5em;
 }
 
-.button-box{
+.button-box {
   text-align: right;
   margin: 20px;
 }
 
-.prompt{
+.prompt {
   padding: 20px;
   font-size: 1.5rem;
   text-decoration: underline;
   text-align: center;
 }
 
-
-.Correct{
+.Correct {
   margin-top: 10px;
   text-align: center;
   font-size: 2em;
-  color:green;
+  color: green;
 }
 
-.Incorrect{
+.Incorrect {
   margin-top: 10px;
   text-align: center;
   font-size: 2em;
-  color:red;
+  color: red;
 }
 
 textarea {
   background-color: black;
-    }
+}
 
-.final-score{
+.final-score {
   padding: 10px 10%;
   font-size: 1.5rem;
 }
